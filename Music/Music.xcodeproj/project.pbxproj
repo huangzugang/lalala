@@ -231,7 +231,6 @@
 				3C04074C1FC3F02400080935 /* Sources */,
 				3C04074D1FC3F02400080935 /* Frameworks */,
 				3C04074E1FC3F02400080935 /* Resources */,
-				50BFDAC97F40F028793471D2 /* [CP] Embed Pods Frameworks */,
 				A76B3C6ABF3D6794E79C6276 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -293,21 +292,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		50BFDAC97F40F028793471D2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Music/Pods-Music-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		924332E9E38A19E42C79AA76 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -337,7 +321,7 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
