@@ -16,6 +16,8 @@ import UIKit
  
  test CI3
  
+ test CI4
+ 
  */
 
 @UIApplicationMain
